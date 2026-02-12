@@ -15,6 +15,7 @@ To stop the containers:
 
 Example Output:
 
+```
 {
   "total_trips": 6,
   "avg_fare_by_city": [
@@ -64,6 +65,7 @@ Example Output:
     }
   ]
 }
+```
 
 Outputs:
     Outputs are written to ./out/summary.json
