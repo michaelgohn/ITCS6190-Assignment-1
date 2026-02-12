@@ -4,15 +4,11 @@ The database service initializes a trips table with seeded data and the Python s
 There are two ways to run this project:
 
     If you have make installed, you can just run:
-    ```
         make
-    ```
     in the root folder and the Make file will build the app for you.
 
     If you do not have make installed or want to build the app manually, run:
-    ```
         docker compose up --build
-    ```
 
 To stop the containers:
 ```
@@ -84,8 +80,6 @@ Troubleshooting:
     ```
 
     If an authentication failure occurs, ensure both services use the same docker credentials:
-    ```
         POSTGRES_USER
         POSTGRES_PASSWORD
         POSTGRES_DB
-    ```
